@@ -1,6 +1,6 @@
 <?php
 /* Conexão com BD MySQL (usuário 'root', senha 'root' e banco 'uniasselvi') */
-$link = mysqli_connect("localhost", "root", "root", "uniasselvi");
+$link = mysqli_connect("localhost", "user", "password", "uniasselvi");
 // Valida se conexão com banco de dados
 if ($link === false) {
   die("ERRO: Não foi possível conectar ao BD. " . mysqli_connect_error());
