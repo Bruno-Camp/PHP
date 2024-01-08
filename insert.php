@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
 <body>
 <a href="index.html">
   <button>Voltar</button>
