@@ -15,9 +15,28 @@
   background-color: white;
   color: black;
   border: 2px solid #04AA6D;
+  /* text-align: center; */
 }
 
 .gravar:hover {
   background-color: #04AA6D;
   color: white;
+}
+form{
+  /* text-align: center; */
+}
+table{
+  text-align: center;
+  align-items: center;
+}
+body{
+  font-family: gotham, arial, helvetica, sans-serif;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 800px;
+  text-align: center;
+  /* align-items: center ; */
+  
 }
