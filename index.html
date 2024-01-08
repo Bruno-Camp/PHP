@@ -1,43 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
- <meta charset="utf-8">
- <title>Cadastro Funcionário</title>
- <link rel="stylesheet" type="text/css" href="style.css"/>
+  <meta charset="utf-8">
+  <title>Cadastro Funcionário</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<br><br>
-<a href="cadastro.php">Cadastro Funcionário</a>
-<br><br>
-<form class="form-insert" action="insert.php" method="post">
+  <br><br>
+  <a href="cadastro.php">Cadastro Funcionário</a>
+  <br><br>
+  <form class="form-insert" action="insert.php" method="post">
     <table>
-    <tr>
-    <td colspan="2">Cadastro de Funcionário</td>
-    </tr>
-    <tr>
-    <td>Nome:</td>
-    <td><input type="text" name="nome" id="nome"></td>
-    </tr>
-    <tr>
-    <td>Cargo:</td>
-    <td><input type="text" name="cargo" id="cargo"></td>
-    </tr>
-    <tr>
-    <td>Descrição cargo:</td>
-    <td><textarea name="descCargo" cols="15"
-    rows="15" id="descCargo"></textarea></td>
-    </tr>
-    <tr>
-    <td>Setor:</td>
-    <td><input type="text" name="setor" id="setor"></td>
-    </tr>
-    <tr>
-    <td>Salario:</td>
-    <td><input type="number" name="salario" id="salario"></td>
-    </tr>
+      <tr>
+        <td colspan="2">Cadastro de Funcionário</td>
+      </tr>
+      <tr>
+        <td>Nome:</td>
+        <td><input type="text" name="nome" id="nome"></td>
+      </tr>
+      <tr>
+        <td>Cargo:</td>
+        <td><input type="text" name="cargo" id="cargo"></td>
+      </tr>
+      <tr>
+        <td>Descrição cargo:</td>
+        <td><textarea name="descCargo" cols="15" rows="15" id="descCargo"></textarea></td>
+      </tr>
+      <tr>
+        <td>Setor:</td>
+        <td><input type="text" name="setor" id="setor"></td>
+      </tr>
+      <tr>
+        <td>Salario:</td>
+        <td><input type="number" name="salario" id="salario"></td>
+      </tr>
     </table>
     <br><br>
-    <input type="submit" name="Gravar" class="gravar">
-    </form>
+    <input type="submit" name="Gravar" class="botao gravar">
+  </form>
 </body>
+
 </html>
