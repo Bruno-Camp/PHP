@@ -4,10 +4,66 @@
 <head>
   <meta charset="utf-8">
   <title>Cadastro Funcionário</title>
-  <link rel="stylesheet" href="style.css" />
+  <style>
+    .botao {
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+    .gravar {
+      background-color: white;
+      color: black;
+      border: 2px solid #04AA6D;
+      text-align: center;
+    }
+
+    .gravar:hover {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    td{
+      text-align: start;
+       
+    }
+
+    div {
+      width: 50%;
+      margin: auto;
+    }
+
+    a{
+      text-align: center;
+    }
+
+    form {
+      text-align: center;
+    }
+
+
+    body {
+      font-family: gotham, arial, helvetica, sans-serif;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 600px;
+      text-align: center;
+      background-color: darkgrey;
+    }
+  </style>
 </head>
 
 <body>
+<<<<<<< HEAD
   <br><br>
   <a href="cadastro.php">Cadastro Funcionário</a>
   <br><br>
@@ -30,9 +86,42 @@
     <br>
     <td>Salario:</td>
     <td><input type="number" name="salario" id="salario"></td>
+=======
+  <div>
+>>>>>>> 88c2b7258c54598132c110e86c8c4dcb8b9dcaa0
     <br><br>
-    <input type="submit" name="Gravar" class="botao gravar">
-  </form>
+    <a href="cadastro.php">Cadastro Funcionário</a>
+    <br><br>
+    <form class="form-insert" action="insert.php" method="post">
+      <table>
+        <tr>
+          <td colspan="2">Cadastro de Funcionário</td>
+        </tr>
+        <tr>
+          <td>Nome:</td>
+          <td><input type="text" name="nome" id="nome"></td>
+        </tr>
+        <tr>
+          <td>Cargo:</td>
+          <td><input type="text" name="cargo" id="cargo"></td>
+        </tr>
+        <tr>
+          <td class="desc">Descrição cargo:</td>
+          <td><textarea name="descCargo" cols="21" rows="15" id="descCargo"></textarea></td>
+        </tr>
+        <tr>
+          <td>Setor:</td>
+          <td><input type="text" name="setor" id="setor"></td>
+        </tr>
+        <tr>
+          <td>Salario:</td>
+          <td><input type="number" name="salario" id="salario"></td>
+        </tr>
+      </table>
+      <br><br>
+      <input type="submit" name="Gravar" class="botao gravar">
+    </form>
+  </div>
 </body>
 
 </html>
