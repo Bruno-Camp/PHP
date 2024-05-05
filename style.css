@@ -23,7 +23,7 @@
   color: white;
 }
 form{
-  /* text-align: center; */
+  text-align: center;
 }
 table{
   text-align: center;
@@ -37,6 +37,6 @@ body{
   margin: 0 auto;
   max-width: 800px;
   text-align: center;
-  /* align-items: center ; */
+  align-items: center ;
   
 }
